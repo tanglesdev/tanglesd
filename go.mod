@@ -15,3 +15,5 @@ require (
 	tangl.es/code/images v0.0.0
 	yall.in v0.0.1
 )
+
+go 1.13

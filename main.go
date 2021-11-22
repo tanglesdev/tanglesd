@@ -33,7 +33,7 @@ func main() {
 	blobStorer := blobs.Filestore{Root: "/usr/local/var/www/static.carvers.house/tangles-process-test"}
 	sqip := images.SQIP{
 		WorkSize:   256,
-		Count:      8,
+		Count:      48,
 		Mode:       1,
 		Alpha:      128,
 		NumWorkers: runtime.NumCPU(),
